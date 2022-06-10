@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2021, Data61, CSIRO (ABN 41 687 119 230)
+
+     SPDX-License-Identifier: BSD-2-Clause
+-->
+<manifest>
+  <remote name="dm4" fetch="https://github.com/dm4"/>
+
+  <default remote="dm4" revision="main"/>
+
+  <project name="test.git" path="test" revision="main" upstream="main" dest-branch="main"/>
+</manifest>
